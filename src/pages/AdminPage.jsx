@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useMatches } from '../hooks/useMatches';
 import { useClubConfig } from '../hooks/useClubConfig';
-import { deleteMatch } from '../lib/firebase';
+import { deleteMatch } from '../lib/supabase';
 import AdminLogin from '../components/admin/AdminLogin';
 import MatchForm from '../components/admin/MatchForm';
 import ClubSettings from '../components/admin/ClubSettings';

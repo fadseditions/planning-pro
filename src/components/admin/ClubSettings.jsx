@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { updateClubConfig } from '../../lib/firebase';
+import { updateClubConfig } from '../../lib/supabase';
 import toast from 'react-hot-toast';
 
 export default function ClubSettings({ config }) {

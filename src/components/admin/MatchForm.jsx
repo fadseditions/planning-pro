@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { addMatch, updateMatch } from '../../lib/firebase';
+import { addMatch, updateMatch } from '../../lib/supabase';
 import { format } from 'date-fns';
 import toast from 'react-hot-toast';
 
